@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "case-116",
+  "version": 1,
+  "title": "Model names shown to raters",
+  "family_id": "unblinded-system-names",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • textbook methods",
+  "cohort": "textbook",
+  "variant": "partial",
+  "task": {
+    "modality": "text",
+    "response_form": "SxS preference",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-116/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/instructions.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "e640de97faffcb88ddd33caa347056ac9804b3237f6e21518cecb4a680054b11",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "6442698b0c2c1b2f5d893f65e7b0891e9345b0d4b83167c9cacb312f806e61c8",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media supplied.",
+    "Missing: display.json"
+  ],
+  "preserve": [
+    "Neutral side labels and side randomisation."
+  ],
+  "provenance": {
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "source_terms": "Original synthetic fixture; no customer text.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null
+}

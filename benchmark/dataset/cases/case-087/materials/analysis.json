@@ -1,0 +1,11 @@
+{
+  "preference_categories": [
+    "A",
+    "B",
+    "T"
+  ],
+  "exclude_from_preference_denominator": [
+    "U"
+  ],
+  "report_unassessable_separately": true
+}

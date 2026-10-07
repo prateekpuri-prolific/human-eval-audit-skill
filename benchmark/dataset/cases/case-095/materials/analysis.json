@@ -1,0 +1,9 @@
+{
+  "target_complexity_mix": {
+    "simple": 0.5,
+    "complex": 0.5
+  },
+  "system_summary": "mean rating over all assigned images",
+  "assignment_unit": "request-system",
+  "participant_system_labels": "hidden"
+}

@@ -1,0 +1,9 @@
+{
+  "options": [
+    {"code": 1, "label": "Poor"},
+    {"code": 2, "label": "Fair"},
+    {"code": 3, "label": "Good"},
+    {"code": 4, "label": "Very good"},
+    {"code": 5, "label": "Excellent"}
+  ]
+}

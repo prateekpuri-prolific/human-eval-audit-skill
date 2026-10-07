@@ -1,0 +1,20 @@
+{
+  "options": [
+    {
+      "code": "A",
+      "label": "Answer A"
+    },
+    {
+      "code": "B",
+      "label": "Answer B"
+    },
+    {
+      "code": "T",
+      "label": "Equally useful"
+    },
+    {
+      "code": "U",
+      "label": "Cannot assess"
+    }
+  ]
+}

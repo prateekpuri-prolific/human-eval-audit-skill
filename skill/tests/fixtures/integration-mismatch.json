@@ -1,0 +1,45 @@
+{
+  "synthetic": true,
+  "study_version": "fixture-v1",
+  "environment": "offline test export; no runnable service",
+  "question": {
+    "id": "quality",
+    "text": "Compare B with A for audible distortion.",
+    "options": [
+      {
+        "code": -1,
+        "label": "B worse"
+      },
+      {
+        "code": 0,
+        "label": "Equal"
+      },
+      {
+        "code": 1,
+        "label": "B better"
+      }
+    ]
+  },
+  "codebook": {
+    "-1": "B worse",
+    "0": "Equal",
+    "1": "B better"
+  },
+  "test_observation": {
+    "study_version": "fixture-v1",
+    "question_id": "quality",
+    "displayed_A": "candidate-red",
+    "displayed_B": "candidate-blue",
+    "selected_label": "Equal",
+    "selected_code": 0
+  },
+  "persisted_test_receipt": {
+    "study_version": "fixture-v1",
+    "question_id": "quality",
+    "response_id": "test-response-1",
+    "value": 1,
+    "candidate_A": "candidate-red",
+    "candidate_B": "candidate-blue"
+  },
+  "coverage": "Single retained test record. No assignment policy, media, timestamps or retry evidence supplied."
+}

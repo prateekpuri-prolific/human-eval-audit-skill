@@ -1,0 +1,29 @@
+{
+  "case_id": "case-079",
+  "issues": [
+    {
+      "id": "issue-1",
+      "type": "planted_defect",
+      "expected_detection": true,
+      "assessment": "The implementation initializes every candidate to 50 and the save validation accepts these untouched defaults as participant ratings. Moderate fidelity is confounded with no response.",
+      "repair_verification": "Initialize missing ratings distinctly (for example null), display no substantive preselection, and require explicit rating or Cannot judge for each candidate before saving. Verify that a fresh page cannot save ordinary ratings, and an explicitly selected 50 can be saved. Preserve equal ratings and codes.",
+      "evidence_paths": [
+        "app.js",
+        "README.md"
+      ],
+      "prohibited_changes": [
+        "Independent per-candidate ordinal fidelity; equal ratings allowed",
+        "0/25/50/75/100 and Cannot judge codes",
+        "No correctness or rejection key inferred from synthetic audio",
+        "Do not claim deployed repairs, human validation or IRR improvement."
+      ],
+      "annotation_status": "Author-created development key; pending independent review"
+    }
+  ],
+  "reviewer_only": {
+    "mechanism": "The implementation initializes every candidate to 50 and the save validation accepts these untouched defaults as participant ratings. Moderate fidelity is confounded with no response.",
+    "repair_target": "Initialize missing ratings distinctly (for example null), display no substantive preselection, and require explicit rating or Cannot judge for each candidate before saving. Verify that a fresh page cannot save ordinary ratings, and an explicitly selected 50 can be saved. Preserve equal ratings and codes.",
+    "synthesis": "Original synthetic repository and assets; no customer data copied.",
+    "actual_assets": "Four original generated WAVs, mono 16 kHz, 2 seconds, supplied and playable. No human validation."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "display": {
+    "reference_field": "original_image",
+    "candidate_field": "edited_image"
+  },
+  "rating": {
+    "target_field": "original_image",
+    "scale": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "unintended_changes": {
+    "target_field": "original_image",
+    "options": [
+      "Yes",
+      "No",
+      "Cannot judge"
+    ]
+  }
+}

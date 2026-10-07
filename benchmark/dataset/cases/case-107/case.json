@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "case-107",
+  "version": 1,
+  "title": "Instructions reveal which system is the owner's",
+  "family_id": "demand-characteristics",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • textbook methods",
+  "cohort": "textbook",
+  "variant": "partial",
+  "task": {
+    "modality": "text",
+    "response_form": "SxS preference",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-107/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/config.json",
+      "format": "json",
+      "role": "configuration_or_test_evidence",
+      "sha256": "f1268b5d4eccaec07972a97baf3e4f90e3123442f22027f3ab443ec91a2e4a15",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "a5f38db585df3ee216bdc6f818261924727e08d3b3f0e288f452b530c0b1c2cc",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media supplied.",
+    "Missing: instructions.md"
+  ],
+  "preserve": [
+    "Preference task, labels and options A / B / No preference."
+  ],
+  "provenance": {
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "source_terms": "Original synthetic fixture; no customer text.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null
+}

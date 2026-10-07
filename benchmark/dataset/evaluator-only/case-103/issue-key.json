@@ -1,0 +1,31 @@
+{
+  "case_id": "case-103",
+  "issues": [
+    {
+      "id": "issue-1",
+      "type": "planted_defect",
+      "expected_detection": true,
+      "assessment": "Only one anchor is negative, so the scale is biased toward positive ratings.",
+      "repair_verification": "Use a balanced scale with matching positive and negative anchors; keep five ordered codes.",
+      "evidence_paths": [
+        "scale.json"
+      ],
+      "prohibited_changes": [
+        "Changing the following without approval: Five ordered options and codes 1-5.",
+        "Inventing a gold key or human agreement improvement",
+        "Claiming to have deployed or verified an unobserved backend fix"
+      ],
+      "annotation_status": "Author-created development key; not independent human or LLM adjudication",
+      "grading_scope": "Target finding only. No-planted-defect is not a claim that the complete study is flawless; do not penalize other specific, evidence-supported findings."
+    }
+  ],
+  "reviewer_only": {
+    "mechanism": "Only one anchor is negative, so the scale is biased toward positive ratings.",
+    "repair_target": "Use a balanced scale with matching positive and negative anchors; keep five ordered codes.",
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "synthesis": "Original synthetic content reproduces a textbook mechanism; no customer study content copied."
+  },
+  "target_only_scoring": true,
+  "additional_findings_policy": "Do not automatically count an additional evidence-supported issue as a false alarm. Judge each finding against visible evidence.",
+  "outcome_claim_limit": "A design repair is not evidence of higher human agreement, correctness, or lower fatigue."
+}

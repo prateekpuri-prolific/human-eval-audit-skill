@@ -1,0 +1,29 @@
+{
+  "case_id": "case-113",
+  "issues": [
+    {
+      "id": "issue-1",
+      "type": "insufficient_evidence",
+      "expected_detection": null,
+      "assessment": "Target mechanism cannot be established because decisive artifacts are withheld. Describe the evidence gap; do not assert: System A is shown first to every rater, confounding order with system.",
+      "repair_verification": "Request the missing decisive artifact and limit revision to supported content.",
+      "evidence_paths": [],
+      "prohibited_changes": [
+        "Changing the following without approval: Both-systems-per-item design and rater and item identifiers.",
+        "Inventing a gold key or human agreement improvement",
+        "Claiming to have deployed or verified an unobserved backend fix"
+      ],
+      "annotation_status": "Author-created development key; not independent human or LLM adjudication",
+      "grading_scope": "Target finding only. No-planted-defect is not a claim that the complete study is flawless; do not penalize other specific, evidence-supported findings."
+    }
+  ],
+  "reviewer_only": {
+    "mechanism": "System A is shown first to every rater, confounding order with system.",
+    "repair_target": "Counterbalance or randomise order across raters; keep both systems per item.",
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "synthesis": "Original synthetic content reproduces a textbook mechanism; no customer study content copied."
+  },
+  "target_only_scoring": true,
+  "additional_findings_policy": "Do not automatically count an additional evidence-supported issue as a false alarm. Judge each finding against visible evidence.",
+  "outcome_claim_limit": "A design repair is not evidence of higher human agreement, correctness, or lower fatigue."
+}

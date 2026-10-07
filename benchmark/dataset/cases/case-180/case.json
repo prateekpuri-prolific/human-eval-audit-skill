@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "case-180",
+  "version": 1,
+  "title": "Adult-oriented content with no age gate",
+  "family_id": "minors-no-age-gate",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • textbook methods",
+  "cohort": "textbook",
+  "variant": "control",
+  "task": {
+    "modality": "text",
+    "response_form": "safety rating",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-180/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/eligibility.json",
+      "format": "json",
+      "role": "configuration_or_test_evidence",
+      "sha256": "d9ba3ecbe794c458323bfebf9ee1ce2df04c4aaf04ef3497c40c2138767891ac",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/task.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "c72ee7752379aa2e714c62b2a6b531585f5c29f9fd2f61f151cce8877a3cef26",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "cbccc2e06c6c25789f4278307698ed469f8996a934629c0ee9b976bd8e241696",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media supplied."
+  ],
+  "preserve": [
+    "Adult-only requirement and the safety task."
+  ],
+  "provenance": {
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "source_terms": "Original synthetic fixture; no customer text.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null
+}

@@ -1,0 +1,5 @@
+# Sample size and stopping
+Owner goal: decide with a pre-specified sample whether system A is preferred to system B. The plan is in analysis_plan.md and the power assumptions are in power.md.
+
+## Available evidence
+This is an incomplete export. The following referenced artifacts were not supplied: analysis_plan.md. Mentions of them in study documentation do not mean they are available. Do not infer their contents.

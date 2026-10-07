@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "case-113",
+  "version": 1,
+  "title": "Every rater sees the same condition first",
+  "family_id": "order-counterbalancing",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • textbook methods",
+  "cohort": "textbook",
+  "variant": "partial",
+  "task": {
+    "modality": "text",
+    "response_form": "SxS preference",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-113/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/notes.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "f1287a0143f836f9b661b0b90e9adf6ba66b118ede4503be36f5807b68343199",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "84ca342c14f1e28cba5eb18dedb41825fd2d5a4b8062f822fb09bec29f417361",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media supplied.",
+    "Missing: assignment.csv"
+  ],
+  "preserve": [
+    "Both-systems-per-item design and rater and item identifiers."
+  ],
+  "provenance": {
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "source_terms": "Original synthetic fixture; no customer text.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null
+}

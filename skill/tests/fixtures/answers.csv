@@ -1,0 +1,4 @@
+study_key,item_key,shown_left_output,shown_right_output,choice_code,severity_code
+synthetic-01,item-01,out-2,out-1,L,minor
+synthetic-01,item-02,out-1,out-2,R,major
+synthetic-01,item-03,out-2,out-1,U,none

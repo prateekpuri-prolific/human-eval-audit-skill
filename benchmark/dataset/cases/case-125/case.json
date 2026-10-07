@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "case-125",
+  "version": 1,
+  "title": "One system rated by fewer raters",
+  "family_id": "unequal-exposure",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • textbook methods",
+  "cohort": "textbook",
+  "variant": "partial",
+  "task": {
+    "modality": "text",
+    "response_form": "pointwise rating",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-125/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/notes.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "49108cb35272867469aa488233342c27dbe28fa6ac3b21ef5eb341c50be0e7a2",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "824fb4141c6b897280ae02d8b99a41e19bcb017e219a988b652fe62a5116d719",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media supplied.",
+    "Missing: allocation.csv"
+  ],
+  "preserve": [
+    "Item sharing across systems and pointwise rating."
+  ],
+  "provenance": {
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "source_terms": "Original synthetic fixture; no customer text.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null
+}

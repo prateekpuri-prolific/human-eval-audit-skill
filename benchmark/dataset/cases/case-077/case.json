@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "case-077",
+  "version": 2,
+  "title": "Per-dimension question, one response",
+  "family_id": "confidence-granularity",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • evidence-informed",
+  "cohort": "augmentation",
+  "variant": "partial",
+  "task": {
+    "modality": "text",
+    "response_form": "comparison + Likert subdimensions",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-077/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "c12ffdac70aac1487852b51757e199ab093d05872ddf414343b48806aa673f82",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media pixels/waveforms supplied.",
+    "Missing: form.json"
+  ],
+  "preserve": [
+    "Separate accuracy/actionability; no single holistic replacement."
+  ],
+  "provenance": {
+    "source_observation": "Internal observation (reference removed for publication)",
+    "source_terms": "Original synthetic fixture; observation provenance belongs only to evaluators.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null,
+  "audit_domain": "integration_integrity",
+  "audit_scope": "structural-fixture-review",
+  "audit_version": 2,
+  "realism_limit": "Synthetic structural fixture; no actual media, deployed interface, participant outcomes or acquisition task.",
+  "audit_revision": {
+    "version": 2,
+    "scope": "structural-fixture-review",
+    "note": "Input scope, evaluator coaching and grading criteria audited. Original version retained separately."
+  }
+}

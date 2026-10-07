@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "case-119",
+  "version": 1,
+  "title": "Calibration items overlap the evaluation set",
+  "family_id": "calibration-contamination",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • textbook methods",
+  "cohort": "textbook",
+  "variant": "partial",
+  "task": {
+    "modality": "text",
+    "response_form": "pointwise rating",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-119/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/calibration_items.csv",
+      "format": "csv",
+      "role": "configuration_or_test_evidence",
+      "sha256": "109f5c8f874f652dfd08b0c50d030f4ea5a5b36a2627d1bdbd455ec5a617f8fb",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "46a832ccb22881dc4ae9c957fcc5f4a7237a6a7a96fe4846ebafeae0bf66a860",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media supplied.",
+    "Missing: eval_items.csv"
+  ],
+  "preserve": [
+    "Separate calibration and evaluation sets and their sizes."
+  ],
+  "provenance": {
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "source_terms": "Original synthetic fixture; no customer text.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null
+}

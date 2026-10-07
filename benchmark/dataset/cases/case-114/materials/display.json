@@ -1,0 +1,7 @@
+{
+  "labels": {
+    "left": "Response A",
+    "right": "Response B"
+  },
+  "randomize_sides": true
+}

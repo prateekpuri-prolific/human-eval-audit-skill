@@ -1,0 +1,8 @@
+{
+  "question": {
+    "prompt": "This study only accepts people who use spreadsheets daily. Do you use spreadsheets daily?",
+    "type": "single_choice",
+    "options": ["Yes", "No"]
+  },
+  "qualify_if_selected": "Spreadsheets"
+}

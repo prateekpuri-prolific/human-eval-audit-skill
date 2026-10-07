@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "case-174",
+  "version": 1,
+  "title": "No content notice for distressing items",
+  "family_id": "harmful-content-warning",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • textbook methods",
+  "cohort": "textbook",
+  "variant": "control",
+  "task": {
+    "modality": "text",
+    "response_form": "safety rating",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-174/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/intro.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "bf849d61259b58418e015e86dc22230b5133c39a9992e687216e9978b19e94fc",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/sample_items.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "8e952473a1b92a0779ab523861d74c7628fc1f9a6b5715c7988a699e8f46f3e4",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "f18656d52dfff6b72f4482686b83a82f706101acab776e9505af4ae3ca392f50",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media supplied."
+  ],
+  "preserve": [
+    "The safety-rating task and its labels."
+  ],
+  "provenance": {
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "source_terms": "Original synthetic fixture; no customer text.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null
+}

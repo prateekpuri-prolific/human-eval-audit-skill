@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Synthetic rater UI fixture</title>
+  <style>
+    body { font: 16px/1.45 system-ui, sans-serif; max-width: 940px; margin: 24px auto; padding: 0 16px; }
+    .pair { display: flex; gap: 16px; align-items: flex-start; }
+    .card { border: 1px solid #888; padding: 12px; }
+    .a { width: 550px; }
+    .b { width: 220px; }
+    .image { height: 180px; display: grid; place-items: center; color: #333; background: #d9e8fa; }
+    .b .image { height: 90px; background: #fadfd9; }
+  </style>
+</head>
+<body>
+  <h1>Synthetic image comparison</h1>
+  <p>Prompt: a red bicycle next to a tree.</p>
+  <div class="pair">
+    <section class="card a"><h2>A</h2><div class="image">Synthetic image A</div></section>
+    <section class="card b"><h2>B</h2><div class="image">Synthetic image B</div></section>
+  </div>
+  <form id="rating">
+    <fieldset>
+      <legend>Which image better follows the prompt?</legend>
+      <label><input type="radio" name="choice" value="a" required> A</label>
+      <label><input type="radio" name="choice" value="b"> B</label>
+    </fieldset>
+    <p><label>How severe is the worst error? <select name="severity"><option>No error</option><option>Minor</option><option>Major</option></select></label></p>
+    <button type="button" id="next">Next (fixture only)</button>
+    <p id="notice" role="status"></p>
+  </form>
+  <script>
+    document.getElementById('next').addEventListener('click', () => {
+      document.getElementById('notice').textContent = 'This synthetic fixture does not submit a rating.';
+    });
+  </script>
+</body>
+</html>

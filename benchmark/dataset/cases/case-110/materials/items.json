@@ -1,0 +1,7 @@
+{
+  "items": [
+    {"id": "q1", "text": "The reply was clear."},
+    {"id": "q2", "text": "The reply was confusing."}
+  ],
+  "scale": [1, 2, 3, 4, 5]
+}

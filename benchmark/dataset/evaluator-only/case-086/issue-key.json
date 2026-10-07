@@ -1,0 +1,26 @@
+{
+  "case_id": "case-086",
+  "issues": [
+    {
+      "id": "issue-1",
+      "type": "insufficient_evidence",
+      "expected_detection": null,
+      "assessment": "The decisive implementation is absent. Do not assert: The participant renderer exposes only the last turn, omitting earlier constraints that define the stated preference task. The full item contains a step-free-access constraint relevant to evaluating the replies.",
+      "repair_verification": "Request app.js or a relevant interaction trace; distinguish the visible instruction/schema from unknown runtime behavior.",
+      "evidence_paths": [],
+      "prohibited_changes": [
+        "Full-context next-reply preference",
+        "A/B/Tie/Cannot judge codes",
+        "Original item and legitimate preference heterogeneity",
+        "Do not claim deployed repairs, human validation or IRR improvement."
+      ],
+      "annotation_status": "Author-created development key; pending independent review"
+    }
+  ],
+  "reviewer_only": {
+    "mechanism": "The participant renderer exposes only the last turn, omitting earlier constraints that define the stated preference task. The full item contains a step-free-access constraint relevant to evaluating the replies.",
+    "repair_target": "Render the complete supplied conversation in chronological order with role labels, preserving the item and response codes. Check that the first user turn is visible alongside both candidates. Do not solve the issue by rewriting the candidates, inventing a preference key, or treating this item as a rejection check.",
+    "synthesis": "Original synthetic repository and assets; no customer data copied.",
+    "actual_assets": "Complete original text conversation and candidate replies; no external sources or private user data."
+  }
+}

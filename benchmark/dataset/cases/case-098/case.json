@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "case-098",
+  "version": 1,
+  "title": "Instruction states what most reviewers think",
+  "family_id": "leading-question",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • textbook methods",
+  "cohort": "textbook",
+  "variant": "partial",
+  "task": {
+    "modality": "text",
+    "response_form": "pointwise rating",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-098/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/scale.json",
+      "format": "json",
+      "role": "configuration_or_test_evidence",
+      "sha256": "e08665f8ccdfde6fc0d8197794c660b0757c1e352c2dc90ee2d68e8a8b6063d4",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "f3e2fae9ec87aecc814b3b52fbaad193b98e2cf880de4de9c007acae0f88b38a",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media supplied.",
+    "Missing: instructions.md"
+  ],
+  "preserve": [
+    "Helpfulness construct, five-point scale, labels and codes."
+  ],
+  "provenance": {
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "source_terms": "Original synthetic fixture; no customer text.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null
+}

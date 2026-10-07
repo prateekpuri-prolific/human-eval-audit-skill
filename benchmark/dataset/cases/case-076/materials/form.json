@@ -1,0 +1,38 @@
+{
+  "overall": [
+    "A",
+    "B",
+    "Tie",
+    "Cannot judge"
+  ],
+  "subratings": [
+    {
+      "response": "A",
+      "dimension": "accuracy",
+      "field": "a_accuracy"
+    },
+    {
+      "response": "A",
+      "dimension": "actionability",
+      "field": "a_accuracy"
+    },
+    {
+      "response": "B",
+      "dimension": "accuracy",
+      "field": "b_accuracy"
+    },
+    {
+      "response": "B",
+      "dimension": "actionability",
+      "field": "b_actionability"
+    }
+  ],
+  "scale": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    "Cannot assess"
+  ]
+}

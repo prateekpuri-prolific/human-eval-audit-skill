@@ -1,0 +1,32 @@
+{
+  "case_id": "case-061",
+  "issues": [
+    {
+      "id": "issue-1",
+      "type": "planted_defect",
+      "expected_detection": true,
+      "assessment": "Configured rating target is original rather than edited image.",
+      "repair_verification": "Bind rating targets to edited_image while retaining original_image as reference.",
+      "evidence_paths": [
+        "questions.json"
+      ],
+      "prohibited_changes": [
+        "Changing the following without approval: Reference and candidate roles, ordered 1–5 scale.",
+        "Inventing a media gold key or human agreement improvement",
+        "Claiming to have deployed or verified an unobserved UI/backend fix"
+      ],
+      "annotation_status": "Author-created development key; not independent human or LLM adjudication",
+      "grading_scope": "Target finding only. No-planted-defect is not a claim that the complete study is flawless; do not penalize other specific, evidence-supported findings.",
+      "repair_evidence_rule": "An edited receipt or written claim is not proof that runtime behavior was fixed. Grade proposal fidelity separately from executable verification."
+    }
+  ],
+  "reviewer_only": {
+    "mechanism": "Configured rating target is original rather than edited image.",
+    "repair_target": "Bind rating targets to edited_image while retaining original_image as reference.",
+    "source_observation": "DES-263 and progressive collection requirements",
+    "synthesis": "Original synthetic content reproduces a mechanism; no customer study content copied."
+  },
+  "target_only_scoring": true,
+  "additional_findings_policy": "Do not automatically count an additional evidence-supported issue as a false alarm. Judge each finding against visible evidence; missing media or runtime access alone does not prevent a bounded source review.",
+  "outcome_claim_limit": "A design repair is not evidence of higher human agreement, correctness, or lower fatigue."
+}

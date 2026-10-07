@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "case-133",
+  "version": 1,
+  "title": "Screener reveals the criterion",
+  "family_id": "screener-leak",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • textbook methods",
+  "cohort": "textbook",
+  "variant": "defect",
+  "task": {
+    "modality": "text",
+    "response_form": "screening question",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-133/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/screener.json",
+      "format": "json",
+      "role": "configuration_or_test_evidence",
+      "sha256": "003e161e7b40d2cd077537f09cf8d7351c946e644288205639e4222db9f2ed88",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/notes.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "52f5b599584dbadf1d5ab149962564718f7a8ece4d85c9bc3f018a0c3598f4a6",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "ece5d005e22aa890a6fb28aeea705bc4fe8caa2a7420f6328b9a18c5293ff4b0",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media supplied."
+  ],
+  "preserve": [
+    "Spreadsheet-use criterion and hidden qualification."
+  ],
+  "provenance": {
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "source_terms": "Original synthetic fixture; no customer text.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null
+}

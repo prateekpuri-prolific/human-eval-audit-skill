@@ -1,0 +1,30 @@
+{
+  "case_id": "case-088",
+  "issues": [
+    {
+      "id": "issue-1",
+      "type": "planted_defect",
+      "expected_detection": true,
+      "assessment": "Participant guidance routes missing-information judgments into T, although the report treats T as assessed equal preference and U as unassessable.",
+      "repair_verification": "Separate genuine equal preference from missing-information judgments in the instructions. Preserve T/U codes, report and denominator; do not assign a correct preference to the demonstration.",
+      "evidence_paths": [
+        "materials/participant.md"
+      ],
+      "prohibited_changes": [
+        "A/B/T/U code meanings, preference heterogeneity, and separate missingness reporting.",
+        "Inventing media gold labels or empirical human effects",
+        "Silently replacing the owner estimand or response-code semantics"
+      ],
+      "annotation_status": "Author-created development key; pending independent adjudication"
+    }
+  ],
+  "reviewer_only": {
+    "mechanism": "Participant guidance routes missing-information judgments into T, although the report treats T as assessed equal preference and U as unassessable.",
+    "repair_target": "Separate genuine equal preference from missing-information judgments in the instructions. Preserve T/U codes, report and denominator; do not assign a correct preference to the demonstration.",
+    "source_observation": "Original methodological audit proposal, 2026-10-06; no customer text copied",
+    "synthesis": "Original synthetic fixture; no customer task text."
+  },
+  "target_only_scoring": true,
+  "additional_findings_policy": "Judge each additional finding against available evidence; control means absence of the target mutation only.",
+  "outcome_claim_limit": "No empirical human effect is established by repairing this design."
+}

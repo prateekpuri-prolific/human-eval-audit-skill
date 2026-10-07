@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "case-075",
+  "version": 2,
+  "title": "Per-dimension question, one response",
+  "family_id": "confidence-granularity",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • evidence-informed",
+  "cohort": "augmentation",
+  "variant": "control",
+  "task": {
+    "modality": "text",
+    "response_form": "comparison + Likert subdimensions",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-075/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/form.json",
+      "format": "json",
+      "role": "configuration_or_test_evidence",
+      "sha256": "b59f24ecc600ed72771354d9c8fbdbc25bac485bf5bf13714c026f71eab289a2",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "f8690c138babd8a863464747636595876fcf9d0b75abeaf3e574b15f2aa6a98d",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media pixels/waveforms supplied."
+  ],
+  "preserve": [
+    "Separate accuracy/actionability; no single holistic replacement."
+  ],
+  "provenance": {
+    "source_observation": "Internal observation (reference removed for publication)",
+    "source_terms": "Original synthetic fixture; observation provenance belongs only to evaluators.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null,
+  "audit_domain": "integration_integrity",
+  "audit_scope": "structural-fixture-review",
+  "audit_version": 2,
+  "realism_limit": "Synthetic structural fixture; no actual media, deployed interface, participant outcomes or acquisition task.",
+  "audit_revision": {
+    "version": 2,
+    "scope": "structural-fixture-review",
+    "note": "Input scope, evaluator coaching and grading criteria audited. Original version retained separately."
+  }
+}

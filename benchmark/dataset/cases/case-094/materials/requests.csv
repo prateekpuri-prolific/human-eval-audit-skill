@@ -1,0 +1,5 @@
+request_id,complexity,prompt
+p1,simple,a red mug on a plain white table
+p2,simple,a yellow backpack on a blue floor
+p3,complex,a red mug to the left of two green plates with a silver spoon behind them
+p4,complex,a yellow backpack under a blue chair beside three stacked books

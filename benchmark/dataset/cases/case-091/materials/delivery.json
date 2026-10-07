@@ -1,0 +1,11 @@
+{
+  "renderer": "image",
+  "source": "middle_frame_png",
+  "duration_seconds": 6,
+  "replay": false,
+  "participant_access": [
+    "middle_frame_only"
+  ],
+  "fallback": "Cannot assess",
+  "additional_media_links": []
+}

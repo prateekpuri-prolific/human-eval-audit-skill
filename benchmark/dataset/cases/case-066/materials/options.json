@@ -1,0 +1,20 @@
+{
+  "options": [
+    {
+      "code": "A",
+      "label": "Summary A"
+    },
+    {
+      "code": "B",
+      "label": "Summary B"
+    },
+    {
+      "code": "T",
+      "label": "Equally good"
+    },
+    {
+      "code": "U",
+      "label": "Cannot judge"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "case-146",
+  "version": 1,
+  "title": "Understated time estimate and low pay",
+  "family_id": "underpayment-rush",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • textbook methods",
+  "cohort": "textbook",
+  "variant": "partial",
+  "task": {
+    "modality": "text",
+    "response_form": "pointwise rating",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-146/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/listing.json",
+      "format": "json",
+      "role": "configuration_or_test_evidence",
+      "sha256": "5393d23e5bcb16d0557e8b19a383c25973bec524cd9edad2d84fe3248b6f2bf0",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "9aaf9337db8d33f93e59df3b92bc50aec63ee6671d14d0cbb5baec4ac4a4c59b",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media supplied.",
+    "Missing: pilot.csv"
+  ],
+  "preserve": [
+    "The pay policy and the task content."
+  ],
+  "provenance": {
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "source_terms": "Original synthetic fixture; no customer text.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null
+}

@@ -1,0 +1,7 @@
+# Sound-rating prototype
+This local repository is a small reference-conditioned sound-reconstruction evaluation. The primary outputs are independent fidelity ratings for three candidate reconstructions of the same reference; ties between candidate ratings are valid. Each candidate needs an explicit participant response. We analyze missing responses separately from moderate fidelity and technical failures. Keep the five rating codes and Cannot judge category stable.
+
+Open index.html in a browser, or serve this directory with python3 -m http.server 8000. It saves only to browser localStorage and displays the saved record. There is no remote endpoint, recruitment or payment workflow. The supplied media are original two-second synthetic chirps, not speech, songs or validated quality anchors. Candidate C is a copy of the reference, supplied to examine interface operation, not a payment/rejection key. This is one development item; candidate-order allocation for a deployed study is outside this repository.
+
+## Export note
+The rendering/response implementation app.js was omitted from this export. Its behavior cannot be established from the remaining template. Request that file or an interaction trace before concluding how the deployed form behaves.

@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "case-121",
+  "version": 1,
+  "title": "Recruit until the result is significant",
+  "family_id": "optional-stopping",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • textbook methods",
+  "cohort": "textbook",
+  "variant": "defect",
+  "task": {
+    "modality": "text",
+    "response_form": "SxS preference",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-121/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/analysis_plan.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "90b028feee7d370378d058368b788cf45e9675af1c05e22b4f380f69eefe6e16",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/power.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "e79b83614c8c0eb2b57f522f01aaea39b0c3e1ed5ccaf9672c58d059eabf7a2c",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "fc43121414f9beb116e38524940941dacf7f3dd93c8fc453598a40726e097efb",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media supplied."
+  ],
+  "preserve": [
+    "Primary comparison and the power assumptions."
+  ],
+  "provenance": {
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "source_terms": "Original synthetic fixture; no customer text.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null
+}

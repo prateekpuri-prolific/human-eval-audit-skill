@@ -1,0 +1,12 @@
+{
+  "ordinary_preference": {
+    "gold_key": null,
+    "wrong_answer_action": "none"
+  },
+  "practice": {
+    "question": "Select Ready to continue",
+    "key": "Ready",
+    "failure_action": "explain_and_retry"
+  },
+  "payment": "not affected by taste"
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "case-137",
+  "version": 1,
+  "title": "Raters rejected for disagreeing with the majority",
+  "family_id": "majority-agreement-quality",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • textbook methods",
+  "cohort": "textbook",
+  "variant": "partial",
+  "task": {
+    "modality": "image",
+    "response_form": "SxS preference",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-137/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/task.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "282a346c16753568085c6dff4330a399b463bb7019e9f78020993fffd0b3865f",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "2dc1160dd2622a6ec662943f9e227ae51cdbf1860de3dfdbb94ec91fd19b6493",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media supplied.",
+    "Missing: qc_policy.md"
+  ],
+  "preserve": [
+    "Subjective naturalness task and its options."
+  ],
+  "provenance": {
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "source_terms": "Original synthetic fixture; no customer text.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null
+}

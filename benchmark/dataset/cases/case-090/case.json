@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "case-090",
+  "version": 1,
+  "title": "Motion review delivery specification",
+  "family_id": "temporal-evidence",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • methodology",
+  "cohort": "methodology audit addition",
+  "variant": "control",
+  "task": {
+    "modality": "video",
+    "response_form": "pointwise binary + ordinal",
+    "intended_decision": "See owner brief in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-090/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/participant.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "e042109379a699074750b4da29005a4d433f8e3b2b81d284b1cc05c614d964a5",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/delivery.json",
+      "format": "json",
+      "role": "configuration_or_test_evidence",
+      "sha256": "3029d94bf8ae1b0232e45b2c177fe4f19d0623531e6c62d9ba03e0cdcc23c6d0",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "dc734e751af3b358024bba9b69c85fc3805137e6725e364163f6c90609294e7d",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only; evaluator metadata not agent-visible.",
+  "missing": [
+    "Static design evidence only; media and deployed behavior are not verified.",
+    "No participant outcomes or causal IRR estimate supplied."
+  ],
+  "preserve": [
+    "Temporal disappearance construct, conditional disruption rating, and cannot-assess path."
+  ],
+  "provenance": {
+    "source_observation": "Original methodological audit proposal, 2026-10-06; no customer text copied",
+    "source_terms": "Original synthetic fixture",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false
+  },
+  "initial_judge_score": null,
+  "audit_domain": "study_design"
+}

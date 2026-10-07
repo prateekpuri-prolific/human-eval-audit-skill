@@ -1,0 +1,27 @@
+{
+  "pages": [
+    {
+      "id": "knowledge",
+      "prompt": "What does API stand for?",
+      "options": [
+        "Application Programming Interface",
+        "Automated Program Index",
+        "Advanced Processing Instruction",
+        "Don't know"
+      ]
+    },
+    {
+      "id": "definition",
+      "text": "In this glossary API means Application Programming Interface."
+    },
+    {
+      "id": "helpfulness",
+      "prompt": "Was the explanation helpful?",
+      "options": [
+        "Yes",
+        "No",
+        "Unsure"
+      ]
+    }
+  ]
+}

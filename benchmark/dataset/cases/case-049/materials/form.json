@@ -1,0 +1,12 @@
+{
+  "fields": [
+    "poster-a",
+    "poster-b",
+    "poster-c",
+    "poster-d"
+  ],
+  "type": "integer",
+  "min": 1,
+  "max": 4,
+  "unique_across_fields": true
+}

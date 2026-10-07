@@ -1,0 +1,32 @@
+{
+  "case_id": "case-073",
+  "issues": [
+    {
+      "id": "issue-1",
+      "type": "planted_defect",
+      "expected_detection": true,
+      "assessment": "Explicit receipt accepts none together with a substantive activity.",
+      "repair_verification": "Reject or automatically deselect contradictory choices with clear feedback; validate other multi-select combinations.",
+      "evidence_paths": [
+        "receipt.json"
+      ],
+      "prohibited_changes": [
+        "Changing the following without approval: Self-report validity; do not invent a correct personal answer.",
+        "Inventing a media gold key or human agreement improvement",
+        "Claiming to have deployed or verified an unobserved UI/backend fix"
+      ],
+      "annotation_status": "Author-created development key; not independent human or LLM adjudication",
+      "grading_scope": "Target finding only. No-planted-defect is not a claim that the complete study is flawless; do not penalize other specific, evidence-supported findings.",
+      "repair_evidence_rule": "An edited receipt or written claim is not proof that runtime behavior was fixed. Grade proposal fidelity separately from executable verification."
+    }
+  ],
+  "reviewer_only": {
+    "mechanism": "Explicit receipt accepts none together with a substantive activity.",
+    "repair_target": "Reject or automatically deselect contradictory choices with clear feedback; validate other multi-select combinations.",
+    "source_observation": "Internal observation (reference removed for publication)",
+    "synthesis": "Original synthetic content reproduces a mechanism; no customer study content copied."
+  },
+  "target_only_scoring": true,
+  "additional_findings_policy": "Do not automatically count an additional evidence-supported issue as a false alarm. Judge each finding against visible evidence; missing media or runtime access alone does not prevent a bounded source review.",
+  "outcome_claim_limit": "A design repair is not evidence of higher human agreement, correctness, or lower fatigue."
+}

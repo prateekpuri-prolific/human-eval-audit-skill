@@ -1,0 +1,30 @@
+{
+  "case_id": "case-082",
+  "issues": [
+    {
+      "id": "issue-1",
+      "type": "planted_defect",
+      "expected_detection": true,
+      "assessment": "Saved annotation boxes use pixel coordinates although the analysis contract requires normalized coordinates in [0,1]. Region aggregation across resolutions will misinterpret their size/location.",
+      "repair_verification": "Convert all four saved box fields to normalized image coordinates (horizontal fields by image width, vertical by height), retaining corner-order normalization and display mapping. Test known box endpoints, both drag directions, and scaled display; do not replace region annotations with an unrelated overall rating.",
+      "evidence_paths": [
+        "app.js",
+        "analysis-schema.json",
+        "README.md"
+      ],
+      "prohibited_changes": [
+        "Binary unintended-change judgment plus region localization",
+        "Original/reference role and requested color change",
+        "Normalized saved region schema",
+        "Do not claim deployed repairs, human validation or IRR improvement."
+      ],
+      "annotation_status": "Author-created development key; pending independent review"
+    }
+  ],
+  "reviewer_only": {
+    "mechanism": "Saved annotation boxes use pixel coordinates although the analysis contract requires normalized coordinates in [0,1]. Region aggregation across resolutions will misinterpret their size/location.",
+    "repair_target": "Convert all four saved box fields to normalized image coordinates (horizontal fields by image width, vertical by height), retaining corner-order normalization and display mapping. Test known box endpoints, both drag directions, and scaled display; do not replace region annotations with an unrelated overall rating.",
+    "synthesis": "Original synthetic repository and assets; no customer data copied.",
+    "actual_assets": "Two original 300\u00d7200 SVG illustrations supplied, viewable locally; no external image assets."
+  }
+}

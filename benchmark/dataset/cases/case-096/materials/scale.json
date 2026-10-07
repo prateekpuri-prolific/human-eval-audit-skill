@@ -1,0 +1,9 @@
+{
+  "options": [
+    {"code": 1, "label": "Not at all helpful"},
+    {"code": 2, "label": "Slightly helpful"},
+    {"code": 3, "label": "Moderately helpful"},
+    {"code": 4, "label": "Very helpful"},
+    {"code": 5, "label": "Extremely helpful"}
+  ]
+}

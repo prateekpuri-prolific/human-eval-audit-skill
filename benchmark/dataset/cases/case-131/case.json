@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "case-131",
+  "version": 1,
+  "title": "Clinical accuracy rated by anyone",
+  "family_id": "expertise-mismatch",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • textbook methods",
+  "cohort": "textbook",
+  "variant": "partial",
+  "task": {
+    "modality": "text",
+    "response_form": "pointwise binary",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-131/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/task.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "3e291328cd7d8749ccf5daffca4bf8bb50d2fc585fed24f00ea9b8f41ab94cca",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "85207eef0ea2a55b80db572eb2e713bb584c85a781abaa85987671faa4e895cd",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media supplied.",
+    "Missing: eligibility.json"
+  ],
+  "preserve": [
+    "Clinical-accuracy construct and the three options."
+  ],
+  "provenance": {
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "source_terms": "Original synthetic fixture; no customer text.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null
+}

@@ -1,0 +1,5 @@
+{
+  "base_gbp": 2.25,
+  "bonus_gbp": 0.50,
+  "bonus_rule": "match the majority answer on at least 80% of items"
+}

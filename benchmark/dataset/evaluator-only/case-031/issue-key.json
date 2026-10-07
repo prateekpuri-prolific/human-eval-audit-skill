@@ -1,0 +1,33 @@
+{
+  "case_id": "case-031",
+  "issues": [
+    {
+      "id": "issue-1",
+      "type": "planted_defect",
+      "expected_detection": true,
+      "assessment": "Test receipt allows a preference save despite candidate playback failure.",
+      "repair_verification": "Gate ordinary choice on playable candidates and keep cannot-judge route; do not claim mock proves actual playback.",
+      "evidence_paths": [
+        "receipt.json"
+      ],
+      "prohibited_changes": [
+        "Changing the following without approval: No mandated simultaneous playback; maintain legitimate abstention.",
+        "Inventing a media gold key or human agreement improvement",
+        "Claiming to have deployed or verified an unobserved UI/backend fix"
+      ],
+      "annotation_status": "Author-created development key; not independent human or LLM adjudication",
+      "grading_scope": "Target finding only. No-planted-defect is not a claim that the complete study is flawless; do not penalize other specific, evidence-supported findings.",
+      "repair_evidence_rule": "An edited receipt or written claim is not proof that runtime behavior was fixed. Grade proposal fidelity separately from executable verification."
+    }
+  ],
+  "reviewer_only": {
+    "mechanism": "Test receipt allows a preference save despite candidate playback failure.",
+    "repair_target": "Gate ordinary choice on playable candidates and keep cannot-judge route; do not claim mock proves actual playback.",
+    "source_observation": "Progressive visibility and UI evidence checks",
+    "synthesis": "Original synthetic content reproduces a mechanism; no customer study content copied."
+  },
+  "target_only_scoring": true,
+  "additional_findings_policy": "Do not automatically count an additional evidence-supported issue as a false alarm. Judge each finding against visible evidence; missing media or runtime access alone does not prevent a bounded source review.",
+  "outcome_claim_limit": "A design repair is not evidence of higher human agreement, correctness, or lower fatigue.",
+  "acceptable_finding": "Identify the synthetic receipt inconsistency under this task contract. Do not universally require forced full playback or simultaneous playback; a cannot-assess path must remain usable."
+}

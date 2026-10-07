@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "case-160",
+  "version": 1,
+  "title": "Overall result reverses within strata",
+  "family_id": "simpson-aggregation",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • textbook methods",
+  "cohort": "textbook",
+  "variant": "defect",
+  "task": {
+    "modality": "text",
+    "response_form": "pointwise binary",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-160/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/results.csv",
+      "format": "csv",
+      "role": "configuration_or_test_evidence",
+      "sha256": "936795982d0a7ea26aec9d8b1f8fb7a6b95e9ed286181b9001e1b173b4e925a4",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/report.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "e257361a4fa29cd7f5b32ae6b7b859c6f626b61a1a1cbc93062e9b3c7fb3606e",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "12b97585f834fde891a3be0dc69914463b7dca7ccea77eb0e92e3a834a2e609c",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media supplied."
+  ],
+  "preserve": [
+    "The data table and the binary good/not-good measure."
+  ],
+  "provenance": {
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "source_terms": "Original synthetic fixture; no customer text.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "case-140",
+  "version": 1,
+  "title": "Bonus paid for matching the majority",
+  "family_id": "agreement-bonus",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • textbook methods",
+  "cohort": "textbook",
+  "variant": "partial",
+  "task": {
+    "modality": "text",
+    "response_form": "pointwise rating",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-140/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/notes.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "3d37a8944ed20b6aaee6fa24cb3fd7cd30f66ee60d5bc99d4a90ff87f1731c98",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "1b78e79f338854ac505ad75aba686aaea163f6e9573e49f26678502dfb69d19e",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media supplied.",
+    "Missing: payment.json"
+  ],
+  "preserve": [
+    "Base pay, bonus amount and the subjective task."
+  ],
+  "provenance": {
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "source_terms": "Original synthetic fixture; no customer text.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null
+}

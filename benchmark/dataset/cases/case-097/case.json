@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "case-097",
+  "version": 1,
+  "title": "Instruction states what most reviewers think",
+  "family_id": "leading-question",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • textbook methods",
+  "cohort": "textbook",
+  "variant": "defect",
+  "task": {
+    "modality": "text",
+    "response_form": "pointwise rating",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-097/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/instructions.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "73b529e434067abb368284702eb54f5f70b36b35c3177dc1b4483d27583cb097",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/scale.json",
+      "format": "json",
+      "role": "configuration_or_test_evidence",
+      "sha256": "e08665f8ccdfde6fc0d8197794c660b0757c1e352c2dc90ee2d68e8a8b6063d4",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "3397bf3a14a3412578e2e34877e19a0091f921d5aee99f20a8caff5d40cec0d1",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media supplied."
+  ],
+  "preserve": [
+    "Helpfulness construct, five-point scale, labels and codes."
+  ],
+  "provenance": {
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "source_terms": "Original synthetic fixture; no customer text.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null
+}

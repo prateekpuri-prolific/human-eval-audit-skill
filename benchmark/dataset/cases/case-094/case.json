@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "case-094",
+  "version": 1,
+  "title": "Generator comparison sampling plan",
+  "family_id": "prompt-allocation",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • methodology",
+  "cohort": "methodology audit addition",
+  "variant": "defect",
+  "task": {
+    "modality": "image",
+    "response_form": "pointwise ordinal",
+    "intended_decision": "See owner brief in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-094/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/requests.csv",
+      "format": "csv",
+      "role": "configuration_or_test_evidence",
+      "sha256": "0f9c56acee69eebfbfc34661b876f07d27bace8636a4bda05d32c103ccd6ab2d",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/allocation.csv",
+      "format": "csv",
+      "role": "configuration_or_test_evidence",
+      "sha256": "3aeb8c69f6b2335982f58caa5531d6ae632bb9b51e4529b2121f6afebb674f0a",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/analysis.json",
+      "format": "json",
+      "role": "configuration_or_test_evidence",
+      "sha256": "ebd626d14d540cbd4821eabcb67c7f3772c9b33448dc6d3ef1dc42f66c668294",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "4a8809239222a499967845594634b44823b9c9d337c471854cd4e51877bc1ea6",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only; evaluator metadata not agent-visible.",
+  "missing": [
+    "Static design evidence only; media and deployed behavior are not verified.",
+    "No participant outcomes or causal IRR estimate supplied."
+  ],
+  "preserve": [
+    "Common 50/50 target prompt mix, pointwise adherence scale, hidden system labels, and system comparison objective."
+  ],
+  "provenance": {
+    "source_observation": "Original methodological audit proposal, 2026-10-06; no customer text copied",
+    "source_terms": "Original synthetic fixture",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false
+  },
+  "initial_judge_score": null,
+  "audit_domain": "study_design"
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "case-168",
+  "version": 1,
+  "title": "Preference attributed to quality despite length",
+  "family_id": "length-bias",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • textbook methods",
+  "cohort": "textbook",
+  "variant": "control",
+  "task": {
+    "modality": "text",
+    "response_form": "SxS preference",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-168/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/results.csv",
+      "format": "csv",
+      "role": "configuration_or_test_evidence",
+      "sha256": "66c0212636a6c21ad2fd2e21b222e5eb80d53280c745b2372349b6807112f16a",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/report.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "e4d550c88f59960c9cdfb08e92a4e06bf8cb30fa10eb6faf26bef6d24d98930f",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "b191a726036240edf7f8c6178bb60a6360279cbfef3b4ef632bb4577970a8263",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media supplied."
+  ],
+  "preserve": [
+    "The preference rates and the length data."
+  ],
+  "provenance": {
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "source_terms": "Original synthetic fixture; no customer text.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null
+}

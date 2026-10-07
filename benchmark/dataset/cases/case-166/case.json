@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "case-166",
+  "version": 1,
+  "title": "LLM judge validated against itself",
+  "family_id": "circular-judge-validation",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • textbook methods",
+  "cohort": "textbook",
+  "variant": "defect",
+  "task": {
+    "modality": "text",
+    "response_form": "LLM-judge validation",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-166/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/validation.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "436db901b0a7fc55f6d769b38688f4b0ca2d22a418d0e7c4f06eaa3618cb5e6b",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/notes.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "d4321df4963a88538bcf044c5159570695e60e36e7bfefd76d64c0e8b67544a7",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "a14c71107af272fa1e75f97695d01609f59fcdadcc29a89c2fd2c98399ef730b",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media supplied."
+  ],
+  "preserve": [
+    "The purpose: whether the judge can replace humans."
+  ],
+  "provenance": {
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "source_terms": "Original synthetic fixture; no customer text.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null
+}

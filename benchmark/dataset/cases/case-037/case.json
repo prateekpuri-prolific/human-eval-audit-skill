@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "case-037",
+  "version": 2,
+  "title": "Export scope and completeness",
+  "family_id": "export-freshness",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • evidence-informed",
+  "cohort": "augmentation",
+  "variant": "defect",
+  "task": {
+    "modality": "audio",
+    "response_form": "pointwise ratings",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-037/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/eligible.csv",
+      "format": "csv",
+      "role": "configuration_or_test_evidence",
+      "sha256": "635a104ebc43d5ced18efb5d6fc854118d57dbf1ce76d1f883bf387363cb1808",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/export.csv",
+      "format": "csv",
+      "role": "configuration_or_test_evidence",
+      "sha256": "ce9bbe4b2edb15b4f3274d20bb67483f81cca73a2391801d0a493da9005b1b07",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/receipt.json",
+      "format": "json",
+      "role": "configuration_or_test_evidence",
+      "sha256": "72cf6ece21c71edb8abab144acd5937ef6715bcaa68bcad89c279962f4f74a6c",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "c109ae7be5b8b97e7897f6f34a7f4209508ccdb2ef56648ca00a2829f49924f5",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media pixels/waveforms supplied."
+  ],
+  "preserve": [
+    "Row unit, cutoff and legitimate filters."
+  ],
+  "provenance": {
+    "source_observation": "Internal observation (reference removed for publication) / Internal observation (reference removed for publication) duplicate incident",
+    "source_terms": "Original synthetic fixture; observation provenance belongs only to evaluators.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null,
+  "audit_domain": "integration_integrity",
+  "audit_scope": "structural-fixture-review",
+  "audit_version": 2,
+  "realism_limit": "Synthetic structural fixture; no actual media, deployed interface, participant outcomes or acquisition task.",
+  "audit_revision": {
+    "version": 2,
+    "scope": "structural-fixture-review",
+    "note": "Input scope, evaluator coaching and grading criteria audited. Original version retained separately."
+  }
+}

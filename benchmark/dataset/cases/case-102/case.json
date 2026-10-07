@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "case-102",
+  "version": 1,
+  "title": "Scale with one negative and four positive options",
+  "family_id": "unbalanced-scale",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • textbook methods",
+  "cohort": "textbook",
+  "variant": "control",
+  "task": {
+    "modality": "text",
+    "response_form": "pointwise rating",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-102/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/scale.json",
+      "format": "json",
+      "role": "configuration_or_test_evidence",
+      "sha256": "7c9be4c4c56b685733b0068e9573970d6b3f2d83e29b8099dfc477aa2d9cadaa",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/instructions.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "32705a66075287e4f09391c35d1de83e714597d97f67d00665616c5985850cc7",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "d71646ab1778a7cbfd5c2ed416dfe26baa7b8963ad012f382fb58859d8c87bfe",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media supplied."
+  ],
+  "preserve": [
+    "Five ordered options and codes 1-5."
+  ],
+  "provenance": {
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "source_terms": "Original synthetic fixture; no customer text.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null
+}

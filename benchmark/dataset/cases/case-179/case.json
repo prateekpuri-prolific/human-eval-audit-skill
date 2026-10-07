@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "case-179",
+  "version": 1,
+  "title": "Personal details shown to raters",
+  "family_id": "pii-in-stimuli",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • textbook methods",
+  "cohort": "textbook",
+  "variant": "partial",
+  "task": {
+    "modality": "text",
+    "response_form": "pointwise rating",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-179/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/stimuli.csv",
+      "format": "csv",
+      "role": "configuration_or_test_evidence",
+      "sha256": "17f997f34f093936a05e157b5de4b7107de757a6067263303a770b96fc22ebfd",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "62488d7b363e6c64d76e46ee4a34bf3db12d5a8c17786c3adb74d63b00d05d47",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media supplied.",
+    "Missing: policy.md"
+  ],
+  "preserve": [
+    "De-identification policy and the item structure."
+  ],
+  "provenance": {
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "source_terms": "Original synthetic fixture; no customer text.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null
+}

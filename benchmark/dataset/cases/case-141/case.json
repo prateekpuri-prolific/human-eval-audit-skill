@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "case-141",
+  "version": 1,
+  "title": "Exclusion rules decided after seeing results",
+  "family_id": "posthoc-exclusions",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • textbook methods",
+  "cohort": "textbook",
+  "variant": "control",
+  "task": {
+    "modality": "text",
+    "response_form": "pointwise rating",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-141/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/analysis_plan.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "9d8b13dd3d8a0cf772fa04545cc21359704c9146d244f42213e881e3977c3f24",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/task.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "8b8acb5e6ceedeb474703f7a9e2daad77f0afd3d270b34d94a214139e0162f64",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "3a5b967a394b7e20f30e68b592203dc6975f25665b36906ecad8fd17d4887ec7",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media supplied."
+  ],
+  "preserve": [
+    "Attention-check design and the primary analysis."
+  ],
+  "provenance": {
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "source_terms": "Original synthetic fixture; no customer text.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null
+}

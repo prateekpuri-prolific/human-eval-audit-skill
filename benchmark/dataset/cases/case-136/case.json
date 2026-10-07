@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "case-136",
+  "version": 1,
+  "title": "Raters rejected for disagreeing with the majority",
+  "family_id": "majority-agreement-quality",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • textbook methods",
+  "cohort": "textbook",
+  "variant": "defect",
+  "task": {
+    "modality": "image",
+    "response_form": "SxS preference",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-136/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/qc_policy.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "971d9d4df287f4f9366c1603017d08282a2c382c22ef2450285927f347b44c19",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/task.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "282a346c16753568085c6dff4330a399b463bb7019e9f78020993fffd0b3865f",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "2741788f411a49834c11f3d17ace3e724bec8620b68cf1852b37be6f8a5d637a",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media supplied."
+  ],
+  "preserve": [
+    "Subjective naturalness task and its options."
+  ],
+  "provenance": {
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "source_terms": "Original synthetic fixture; no customer text.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "case-026",
+  "version": 2,
+  "title": "Which video is being narrated?",
+  "family_id": "narration-binding",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • evidence-informed",
+  "cohort": "augmentation",
+  "variant": "partial",
+  "task": {
+    "modality": "video",
+    "response_form": "pointwise + binary dimensions",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-026/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "e3922616eaf8fbe2e1bb2bd63de239abc748eeb50d363d78d35b762ecabc0095",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media pixels/waveforms supplied.",
+    "Missing: config.json"
+  ],
+  "preserve": [
+    "Reference/candidate distinction and pointwise narration target."
+  ],
+  "provenance": {
+    "source_observation": "Internal observation (reference removed for publication)",
+    "source_terms": "Original synthetic fixture; observation provenance belongs only to evaluators.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null,
+  "audit_domain": "instrument_configuration",
+  "audit_scope": "structural-fixture-review",
+  "audit_version": 2,
+  "realism_limit": "Synthetic structural fixture; no actual media, deployed interface, participant outcomes or acquisition task.",
+  "audit_revision": {
+    "version": 2,
+    "scope": "structural-fixture-review",
+    "note": "Input scope, evaluator coaching and grading criteria audited. Original version retained separately."
+  }
+}

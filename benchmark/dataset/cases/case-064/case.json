@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "case-064",
+  "version": 2,
+  "title": "Unaided knowledge after an answer cue",
+  "family_id": "answer-leakage",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • evidence-informed",
+  "cohort": "augmentation",
+  "variant": "defect",
+  "task": {
+    "modality": "text",
+    "response_form": "knowledge + confidence",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-064/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/pages.json",
+      "format": "json",
+      "role": "configuration_or_test_evidence",
+      "sha256": "22e7b783f533a12a2ab4758699097915642b89b0db4dc1092099e9f04ece143c",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "de857f1bdb46ec4e4e02b54044f958fece8f77e264f3747e3e36a51d58695718",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media pixels/waveforms supplied."
+  ],
+  "preserve": [
+    "Unaided knowledge estimand and intentional later disclosure."
+  ],
+  "provenance": {
+    "source_observation": "Internal observation (reference removed for publication)",
+    "source_terms": "Original synthetic fixture; observation provenance belongs only to evaluators.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null,
+  "audit_domain": "study_design",
+  "audit_scope": "structural-fixture-review",
+  "audit_version": 2,
+  "realism_limit": "Synthetic structural fixture; no actual media, deployed interface, participant outcomes or acquisition task.",
+  "audit_revision": {
+    "version": 2,
+    "scope": "structural-fixture-review",
+    "note": "Input scope, evaluator coaching and grading criteria audited. Original version retained separately."
+  }
+}

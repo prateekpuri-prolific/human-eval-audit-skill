@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "case-163",
+  "version": 1,
+  "title": "Raw agreement reported as reliability",
+  "family_id": "kappa-paradox",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • textbook methods",
+  "cohort": "textbook",
+  "variant": "defect",
+  "task": {
+    "modality": "text",
+    "response_form": "pointwise binary",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-163/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/counts.csv",
+      "format": "csv",
+      "role": "configuration_or_test_evidence",
+      "sha256": "00877db4d70b4e1eefb1e28709af355f53a7e20f47c62d266c9a91ff1393d9bd",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/reliability.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "1c3120e82ead5732034f7c5d9d3fa8b8a48b6be57fa22c155f1c2f3dd315231c",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "57ae7867c5006dc275ca7603afc91a20532dd483adf80cae380ecac8069e81a6",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media supplied."
+  ],
+  "preserve": [
+    "The rare-label setting and binary labels."
+  ],
+  "provenance": {
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "source_terms": "Original synthetic fixture; no customer text.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null
+}

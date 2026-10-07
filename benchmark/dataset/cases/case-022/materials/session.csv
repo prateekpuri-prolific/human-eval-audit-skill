@@ -1,0 +1,4 @@
+event,session,item_id,left_id,right_id,selected_side,stored_item_id,stored_output_id
+submit,s01,item-7,out-7a,out-7b,left,item-7,out-7a
+resume,s01,item-7,out-7a,out-7b,left,item-2,out-2b
+submit,s02,item-2,out-2b,out-2a,right,item-2,out-2a

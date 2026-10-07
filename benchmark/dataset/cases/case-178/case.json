@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "case-178",
+  "version": 1,
+  "title": "Personal details shown to raters",
+  "family_id": "pii-in-stimuli",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • textbook methods",
+  "cohort": "textbook",
+  "variant": "defect",
+  "task": {
+    "modality": "text",
+    "response_form": "pointwise rating",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-178/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/stimuli.csv",
+      "format": "csv",
+      "role": "configuration_or_test_evidence",
+      "sha256": "c17d7fac0b6c39f22b640e652243c6c4f4065fda039494037cf6a3acf4b64c32",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/policy.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "66f93fc890685c5c7ae78ddb32bc61281bbf70507608a1f702b1cd718d0a060f",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "55dec1bd8f136283de2bc506b94ec384c8bfc88e5ef2870f2a14338bcfacf54e",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media supplied."
+  ],
+  "preserve": [
+    "De-identification policy and the item structure."
+  ],
+  "provenance": {
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "source_terms": "Original synthetic fixture; no customer text.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null
+}

@@ -1,0 +1,30 @@
+{
+  "case_id": "case-091",
+  "issues": [
+    {
+      "id": "issue-1",
+      "type": "planted_defect",
+      "expected_detection": true,
+      "assessment": "The complete delivery specification shows only a single middle frame, so participants cannot observe disappearance-and-return events across time.",
+      "repair_verification": "Provide the full animation with replay, or obtain owner agreement to a different observable construct. Do not rewrite temporal disappearance as still-image plausibility or invent event labels.",
+      "evidence_paths": [
+        "materials/delivery.json"
+      ],
+      "prohibited_changes": [
+        "Temporal disappearance construct, conditional disruption rating, and cannot-assess path.",
+        "Inventing media gold labels or empirical human effects",
+        "Silently replacing the owner estimand or response-code semantics"
+      ],
+      "annotation_status": "Author-created development key; pending independent adjudication"
+    }
+  ],
+  "reviewer_only": {
+    "mechanism": "The complete delivery specification shows only a single middle frame, so participants cannot observe disappearance-and-return events across time.",
+    "repair_target": "Provide the full animation with replay, or obtain owner agreement to a different observable construct. Do not rewrite temporal disappearance as still-image plausibility or invent event labels.",
+    "source_observation": "Original methodological audit proposal, 2026-10-06; no customer text copied",
+    "synthesis": "Original synthetic fixture; no customer task text."
+  },
+  "target_only_scoring": true,
+  "additional_findings_policy": "Judge each additional finding against available evidence; control means absence of the target mutation only.",
+  "outcome_claim_limit": "No empirical human effect is established by repairing this design."
+}

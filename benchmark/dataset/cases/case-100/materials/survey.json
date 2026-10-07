@@ -1,0 +1,5 @@
+{
+  "items": [
+    {"id": "accuracy", "prompt": "Is the reply factually accurate and politely worded?", "options": ["Yes", "No", "Cannot tell"]}
+  ]
+}

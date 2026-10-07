@@ -1,0 +1,22 @@
+{
+  "question": "How much audible distortion is present?",
+  "options": [
+    {
+      "code": 1,
+      "label": "None"
+    },
+    {
+      "code": 2,
+      "label": "Slight"
+    },
+    {
+      "code": 3,
+      "label": "Moderate"
+    },
+    {
+      "code": 4,
+      "label": "My favorite voice"
+    }
+  ],
+  "abstention": "Cannot judge"
+}

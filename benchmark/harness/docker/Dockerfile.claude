@@ -1,0 +1,2 @@
+FROM study-audit-runtime:20261006
+RUN (command -v curl >/dev/null || (apt-get update && apt-get install -y curl ca-certificates procps)) && curl -fsSL https://downloads.claude.ai/claude-code-releases/bootstrap.sh | bash -s -- 2.1.285 && export PATH="$HOME/.local/bin:$PATH" && claude --version

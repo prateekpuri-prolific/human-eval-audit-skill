@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "case-071",
+  "version": 2,
+  "title": "Instructions promise a missing follow-up",
+  "family_id": "promised-followup",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • evidence-informed",
+  "cohort": "augmentation",
+  "variant": "partial",
+  "task": {
+    "modality": "text",
+    "response_form": "pointwise rating + interpretation",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-071/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "022043e279cc9ff32390cfc6bb62070f0cf8c36d0f9873148b1a575a26e127e2",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media pixels/waveforms supplied.",
+    "Missing: form.json"
+  ],
+  "preserve": [
+    "Rating-plus-interpretation estimand and optional comment."
+  ],
+  "provenance": {
+    "source_observation": "Internal observation (reference removed for publication)",
+    "source_terms": "Original synthetic fixture; observation provenance belongs only to evaluators.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null,
+  "audit_domain": "study_design",
+  "audit_scope": "structural-fixture-review",
+  "audit_version": 2,
+  "realism_limit": "Synthetic structural fixture; no actual media, deployed interface, participant outcomes or acquisition task.",
+  "audit_revision": {
+    "version": 2,
+    "scope": "structural-fixture-review",
+    "note": "Input scope, evaluator coaching and grading criteria audited. Original version retained separately."
+  }
+}

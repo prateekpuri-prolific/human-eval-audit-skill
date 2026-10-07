@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "case-088",
+  "version": 1,
+  "title": "Preference responses and analysis",
+  "family_id": "tie-missingness",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • methodology",
+  "cohort": "methodology audit addition",
+  "variant": "defect",
+  "task": {
+    "modality": "text",
+    "response_form": "SxS preference",
+    "intended_decision": "See owner brief in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-088/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/participant.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "3b06edb1a926032d96bb7ec6a2bf59a43309b4df965958577798eca5a832ce50",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/form.json",
+      "format": "json",
+      "role": "configuration_or_test_evidence",
+      "sha256": "fc32fa30fc031bd456a4bed5fb46112266092b542e4457c52b9d89cc42578d4f",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/analysis.json",
+      "format": "json",
+      "role": "configuration_or_test_evidence",
+      "sha256": "8afb534e537f2beee22ecb0197eeaf2b71949349eec14c3f8339cff8a55d9c23",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "af44c74a77755c55704013cddee095ac706acb2789ba1f1c3a304ee5c4ac22e2",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only; evaluator metadata not agent-visible.",
+  "missing": [
+    "Static design evidence only; media and deployed behavior are not verified.",
+    "No participant outcomes or causal IRR estimate supplied."
+  ],
+  "preserve": [
+    "A/B/T/U code meanings, preference heterogeneity, and separate missingness reporting."
+  ],
+  "provenance": {
+    "source_observation": "Original methodological audit proposal, 2026-10-06; no customer text copied",
+    "source_terms": "Original synthetic fixture",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false
+  },
+  "initial_judge_score": null,
+  "audit_domain": "study_design"
+}

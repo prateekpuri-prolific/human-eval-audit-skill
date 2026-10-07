@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "case-156",
+  "version": 1,
+  "title": "Many subgroup tests, few reported",
+  "family_id": "multiple-comparisons",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • textbook methods",
+  "cohort": "textbook",
+  "variant": "control",
+  "task": {
+    "modality": "text",
+    "response_form": "pointwise rating",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-156/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/analysis_plan.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "50ca0b7312752053a237df1a245decce6a371df8fe8d09eedd8032c42853dd54",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/subgroups.csv",
+      "format": "csv",
+      "role": "configuration_or_test_evidence",
+      "sha256": "7085ada54d16455bfce9e309bee04d5abb707f28990ddcae05817fae66f38385",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "284d5ac640e8909c15953807b2f19c71c80f29bccaf429edd1da03f628cc6468",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media supplied."
+  ],
+  "preserve": [
+    "Primary comparison and subgroup definitions."
+  ],
+  "provenance": {
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "source_terms": "Original synthetic fixture; no customer text.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null
+}

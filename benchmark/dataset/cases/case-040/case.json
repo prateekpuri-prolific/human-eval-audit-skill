@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "case-040",
+  "version": 2,
+  "title": "Optional pronunciation recording",
+  "family_id": "optional-upload",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • evidence-informed",
+  "cohort": "augmentation",
+  "variant": "defect",
+  "task": {
+    "modality": "audio",
+    "response_form": "collection + optional upload",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-040/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/config.json",
+      "format": "json",
+      "role": "configuration_or_test_evidence",
+      "sha256": "2e34cff3416a040b33c5c191e55dfb6e177501e3e4ec01022810ee8bb7eb073e",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/validation.json",
+      "format": "json",
+      "role": "configuration_or_test_evidence",
+      "sha256": "7125014d79bc099647ec062f5ab745cc04d9e839957aa222f84c65579e0eaa91",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "ac2510c128e268ae740c982c6355cf48c9d80b6a47a0fd1028009a96dfde5efd",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media pixels/waveforms supplied."
+  ],
+  "preserve": [
+    "Recording remains optional; do not resolve by making it mandatory."
+  ],
+  "provenance": {
+    "source_observation": "Internal observation (reference removed for publication)",
+    "source_terms": "Original synthetic fixture; observation provenance belongs only to evaluators.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null,
+  "audit_domain": "instrument_configuration",
+  "audit_scope": "structural-fixture-review",
+  "audit_version": 2,
+  "realism_limit": "Synthetic structural fixture; no actual media, deployed interface, participant outcomes or acquisition task.",
+  "audit_revision": {
+    "version": 2,
+    "scope": "structural-fixture-review",
+    "note": "Input scope, evaluator coaching and grading criteria audited. Original version retained separately."
+  }
+}

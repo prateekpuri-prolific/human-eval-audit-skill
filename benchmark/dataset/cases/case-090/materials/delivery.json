@@ -1,0 +1,11 @@
+{
+  "renderer": "video_player",
+  "source": "generated_clip_url",
+  "duration_seconds": 6,
+  "replay": true,
+  "participant_access": [
+    "full_clip"
+  ],
+  "fallback": "Cannot assess",
+  "additional_media_links": []
+}

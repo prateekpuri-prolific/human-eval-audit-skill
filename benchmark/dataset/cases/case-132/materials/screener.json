@@ -1,0 +1,8 @@
+{
+  "question": {
+    "prompt": "Which of these tools do you use at work?",
+    "type": "select_all",
+    "options": ["Spreadsheets", "Slide decks", "Email", "Video calls", "Text editors"]
+  },
+  "qualify_if_selected": "Spreadsheets"
+}

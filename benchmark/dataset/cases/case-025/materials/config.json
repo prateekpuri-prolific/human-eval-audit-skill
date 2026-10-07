@@ -1,0 +1,11 @@
+{
+  "fields": [
+    "reference_video_url",
+    "candidate_video_url"
+  ],
+  "narration": {
+    "source_field": "reference_video_url"
+  },
+  "rating_target": "candidate_narration",
+  "schema_version": 1
+}

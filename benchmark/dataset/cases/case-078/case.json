@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "id": "case-078",
+  "version": 1,
+  "title": "Reference-anchored sound reconstruction",
+  "family_id": "audio-multistimulus-explicit-response",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • workflow repository",
+  "cohort": "workflow expansion",
+  "variant": "control",
+  "task": {
+    "modality": "audio",
+    "response_form": "multi-stimulus independent ordinal ratings",
+    "intended_decision": "See README.md"
+  },
+  "issue_annotation": "evaluator-only/case-078/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/README.md",
+      "format": "md",
+      "role": "study_design",
+      "agent_visible": true,
+      "availability": "supplied",
+      "sha256": "c506805b4fe1b2df1081420bd7d7e3e11c4f354633d1e66e34bc66772cca5e67"
+    },
+    {
+      "path": "materials/app.js",
+      "format": "js",
+      "role": "ui_source",
+      "agent_visible": true,
+      "availability": "supplied",
+      "sha256": "b1b14e6d82391c6ffd416e7c9376f27d824892ab74076dcf93d2ad16bbbf4593"
+    },
+    {
+      "path": "materials/assets/A.wav",
+      "format": "wav",
+      "role": "stimulus",
+      "agent_visible": true,
+      "availability": "supplied",
+      "sha256": "faf14044450ac2a96be1ac0fb2488d82fd90c8169b4ae24570a390c40254c007"
+    },
+    {
+      "path": "materials/assets/B.wav",
+      "format": "wav",
+      "role": "stimulus",
+      "agent_visible": true,
+      "availability": "supplied",
+      "sha256": "02cd9668390ec7b04f9c168fb1205a35339dc06e8a86d37137804eee5e7660fa"
+    },
+    {
+      "path": "materials/assets/C.wav",
+      "format": "wav",
+      "role": "stimulus",
+      "agent_visible": true,
+      "availability": "supplied",
+      "sha256": "9bc0d8ec91c3c861984b0b01df234b77823611923277a8655406496f83cbe050"
+    },
+    {
+      "path": "materials/assets/reference.wav",
+      "format": "wav",
+      "role": "stimulus",
+      "agent_visible": true,
+      "availability": "supplied",
+      "sha256": "9bc0d8ec91c3c861984b0b01df234b77823611923277a8655406496f83cbe050"
+    },
+    {
+      "path": "materials/index.html",
+      "format": "html",
+      "role": "ui_source",
+      "agent_visible": true,
+      "availability": "supplied",
+      "sha256": "d239e64be65bd20060b6f726b90084d29f9b8a34acc6d1696b1f1b7024bd4907"
+    }
+  ],
+  "visible_scope": "Only materials/ and neutral agent_entry_request; keys and metadata stay outside agent workspace.",
+  "missing": [
+    "No live deployment or human outcomes."
+  ],
+  "preserve": [
+    "Independent per-candidate ordinal fidelity; equal ratings allowed",
+    "0/25/50/75/100 and Cannot judge codes",
+    "No correctness or rejection key inferred from synthetic audio"
+  ],
+  "provenance": {
+    "source_terms": "Original synthetic fixtures and assets created for local benchmark; no public instrument validity claim.",
+    "transformed": false
+  },
+  "access_route": "local runnable repository",
+  "agent_entry_request": "Review this local sound-rating prototype before launch. Inspect the participant page and its implementation. Report material issues and revise supported problems while retaining the intended measurements.",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": true,
+    "supports_browser_workflow": true,
+    "workflow_execution_optional": true
+  },
+  "actual_asset_scope": "Four original generated WAVs, mono 16 kHz, 2 seconds, supplied and playable. No human validation.",
+  "initial_judge_score": null
+}

@@ -1,0 +1,26 @@
+{
+  "preference": {
+    "type": "single",
+    "options": [
+      "A",
+      "B",
+      "Tie",
+      "Cannot judge"
+    ]
+  },
+  "diagnostics": {
+    "type": "multiple",
+    "helper": "Select up to two",
+    "answer_limit": -1,
+    "options": [
+      "clipping",
+      "repetitions",
+      "unnatural pauses",
+      "distorted phonemes",
+      "none"
+    ],
+    "exclusive_options": [
+      "none"
+    ]
+  }
+}

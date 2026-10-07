@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "case-155",
+  "version": 1,
+  "title": "Ranking on a trivial mean difference",
+  "family_id": "ordinal-mean-ranking",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • textbook methods",
+  "cohort": "textbook",
+  "variant": "partial",
+  "task": {
+    "modality": "text",
+    "response_form": "pointwise rating",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-155/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/report_draft.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "faffae4d1106f71a18bbedc83bbd8cf4d0c7d3373a36ba15307a1fadf3b24bfa",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "84462bb5294a25f3983de25ada36c366ceba5b57873694f66517e924c61b95f9",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media supplied.",
+    "Missing: results.csv"
+  ],
+  "preserve": [
+    "Rating scale, sample sizes and the comparison."
+  ],
+  "provenance": {
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "source_terms": "Original synthetic fixture; no customer text.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null
+}

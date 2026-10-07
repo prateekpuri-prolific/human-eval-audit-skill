@@ -1,0 +1,11 @@
+{
+  "upload": {
+    "min_files": 0,
+    "max_files": 1,
+    "accepted": [
+      "wav",
+      "mp3"
+    ],
+    "max_mb": 15
+  }
+}

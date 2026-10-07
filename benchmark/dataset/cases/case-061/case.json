@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "case-061",
+  "version": 2,
+  "title": "Reference versus candidate fields",
+  "family_id": "source-roles",
+  "split": "development",
+  "source_type": "synthetic",
+  "source_group": "Synthetic • evidence-informed",
+  "cohort": "augmentation",
+  "variant": "defect",
+  "task": {
+    "modality": "image",
+    "response_form": "pointwise + binary dimensions",
+    "intended_decision": "See owner goal in study.md"
+  },
+  "issue_annotation": "evaluator-only/case-061/issue-key.json",
+  "materials": [
+    {
+      "path": "materials/questions.json",
+      "format": "json",
+      "role": "configuration_or_test_evidence",
+      "sha256": "07add4d2c503e72bc3093957b693cafffe8faee2c627bd3f8a127189c2da906b",
+      "agent_visible": true,
+      "availability": "supplied"
+    },
+    {
+      "path": "materials/study.md",
+      "format": "md",
+      "role": "instrument",
+      "sha256": "ca5bceaacf23b96b15ef1b39d656d03f7bb359f68ec7c131ff19f1247515d7dd",
+      "agent_visible": true,
+      "availability": "supplied"
+    }
+  ],
+  "visible_scope": "Listed materials only. Reviewer metadata and keys are not agent input.",
+  "missing": [
+    "No actual participant outcomes; no causal or IRR-improvement claim supported.",
+    "No live deployed interface or media pixels/waveforms supplied."
+  ],
+  "preserve": [
+    "Reference and candidate roles, ordered 1–5 scale."
+  ],
+  "provenance": {
+    "source_observation": "DES-263 and progressive collection requirements",
+    "source_terms": "Original synthetic fixture; observation provenance belongs only to evaluators.",
+    "transformed": false
+  },
+  "access_route": "local files",
+  "eligibility": {
+    "one_shot": true,
+    "requires_browser": false,
+    "requires_image_input": false,
+    "html_render_required_for_visual_checks": false
+  },
+  "initial_judge_score": null,
+  "audit_domain": "instrument_configuration",
+  "audit_scope": "structural-fixture-review",
+  "audit_version": 2,
+  "realism_limit": "Synthetic structural fixture; no actual media, deployed interface, participant outcomes or acquisition task.",
+  "audit_revision": {
+    "version": 2,
+    "scope": "structural-fixture-review",
+    "note": "Input scope, evaluator coaching and grading criteria audited. Original version retained separately."
+  }
+}

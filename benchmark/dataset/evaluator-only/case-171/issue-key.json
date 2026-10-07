@@ -1,0 +1,32 @@
+{
+  "case_id": "case-171",
+  "issues": [
+    {
+      "id": "issue-1",
+      "type": "no_planted_defect",
+      "expected_detection": false,
+      "assessment": "Matched control: no target defect is planted. Preserve the working design and avoid the following false alarm: Consent states 5 minutes while the configuration implies about 20.",
+      "repair_verification": "No unnecessary repair of the target mechanism.",
+      "evidence_paths": [
+        "consent.md",
+        "task_config.json"
+      ],
+      "prohibited_changes": [
+        "Changing the following without approval: Right to stop and the task content.",
+        "Inventing a gold key or human agreement improvement",
+        "Claiming to have deployed or verified an unobserved backend fix"
+      ],
+      "annotation_status": "Author-created development key; not independent human or LLM adjudication",
+      "grading_scope": "Target finding only. No-planted-defect is not a claim that the complete study is flawless; do not penalize other specific, evidence-supported findings."
+    }
+  ],
+  "reviewer_only": {
+    "mechanism": "Consent states 5 minutes while the configuration implies about 20.",
+    "repair_target": "Align the stated duration with the task configuration.",
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "synthesis": "Original synthetic content reproduces a textbook mechanism; no customer study content copied."
+  },
+  "target_only_scoring": true,
+  "additional_findings_policy": "Do not automatically count an additional evidence-supported issue as a false alarm. Judge each finding against visible evidence.",
+  "outcome_claim_limit": "A design repair is not evidence of higher human agreement, correctness, or lower fatigue."
+}

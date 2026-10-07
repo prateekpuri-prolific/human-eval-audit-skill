@@ -1,0 +1,31 @@
+{
+  "case_id": "case-095",
+  "issues": [
+    {
+      "id": "issue-1",
+      "type": "insufficient_evidence",
+      "expected_detection": null,
+      "assessment": "Decisive artifact is withheld; the target issue cannot be established: System A receives only simple prompts and B only complex prompts, so pooled mean comparisons cannot distinguish system from assigned prompt mix or estimate the stated common target mix.",
+      "repair_verification": "Request decisive artifact; keep unsupported claims conditional.",
+      "evidence_paths": [
+        "materials/requests.csv",
+        "materials/analysis.json"
+      ],
+      "prohibited_changes": [
+        "Common 50/50 target prompt mix, pointwise adherence scale, hidden system labels, and system comparison objective.",
+        "Inventing media gold labels or empirical human effects",
+        "Silently replacing the owner estimand or response-code semantics"
+      ],
+      "annotation_status": "Author-created development key; pending independent adjudication"
+    }
+  ],
+  "reviewer_only": {
+    "mechanism": "System A receives only simple prompts and B only complex prompts, so pooled mean comparisons cannot distinguish system from assigned prompt mix or estimate the stated common target mix.",
+    "repair_target": "Allocate both systems to each target prompt before generation, or propose another design with overlap and target weights for owner review. Preserve hidden labels. Do not claim reweighting alone recovers missing system-by-complexity cells.",
+    "source_observation": "Original methodological audit proposal, 2026-10-06; no customer text copied",
+    "synthesis": "Original synthetic fixture; no customer task text."
+  },
+  "target_only_scoring": true,
+  "additional_findings_policy": "Judge each additional finding against available evidence; control means absence of the target mutation only.",
+  "outcome_claim_limit": "No empirical human effect is established by repairing this design."
+}

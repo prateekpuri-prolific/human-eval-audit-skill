@@ -1,0 +1,32 @@
+{
+  "case_id": "case-168",
+  "issues": [
+    {
+      "id": "issue-1",
+      "type": "no_planted_defect",
+      "expected_detection": false,
+      "assessment": "Matched control: no target defect is planted. Preserve the working design and avoid the following false alarm: Preference is attributed to quality with no control for the doubled reply length.",
+      "repair_verification": "No unnecessary repair of the target mechanism.",
+      "evidence_paths": [
+        "results.csv",
+        "report.md"
+      ],
+      "prohibited_changes": [
+        "Changing the following without approval: The preference rates and the length data.",
+        "Inventing a gold key or human agreement improvement",
+        "Claiming to have deployed or verified an unobserved backend fix"
+      ],
+      "annotation_status": "Author-created development key; not independent human or LLM adjudication",
+      "grading_scope": "Target finding only. No-planted-defect is not a claim that the complete study is flawless; do not penalize other specific, evidence-supported findings."
+    }
+  ],
+  "reviewer_only": {
+    "mechanism": "Preference is attributed to quality with no control for the doubled reply length.",
+    "repair_target": "Control or report length effects before attributing preference to quality.",
+    "source_observation": "Standard methods literature (textbook mistake); original synthetic fixture",
+    "synthesis": "Original synthetic content reproduces a textbook mechanism; no customer study content copied."
+  },
+  "target_only_scoring": true,
+  "additional_findings_policy": "Do not automatically count an additional evidence-supported issue as a false alarm. Judge each finding against visible evidence.",
+  "outcome_claim_limit": "A design repair is not evidence of higher human agreement, correctness, or lower fatigue."
+}

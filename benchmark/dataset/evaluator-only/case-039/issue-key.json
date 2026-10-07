@@ -1,0 +1,34 @@
+{
+  "case_id": "case-039",
+  "issues": [
+    {
+      "id": "issue-1",
+      "type": "no_planted_defect",
+      "expected_detection": false,
+      "assessment": "Matched control: no target defect is planted. Preserve the working design and avoid the following false alarm: Validator rejects zero uploads although guidance and configuration make recording optional.",
+      "repair_verification": "No unnecessary repair of the target mechanism.",
+      "evidence_paths": [
+        "config.json",
+        "validation.json"
+      ],
+      "prohibited_changes": [
+        "Changing the following without approval: Recording remains optional; do not resolve by making it mandatory.",
+        "Inventing a media gold key or human agreement improvement",
+        "Claiming to have deployed or verified an unobserved UI/backend fix"
+      ],
+      "annotation_status": "Author-created development key; not independent human or LLM adjudication",
+      "grading_scope": "Target finding only. No-planted-defect is not a claim that the complete study is flawless; do not penalize other specific, evidence-supported findings.",
+      "repair_evidence_rule": "An edited receipt or written claim is not proof that runtime behavior was fixed. Grade proposal fidelity separately from executable verification."
+    }
+  ],
+  "reviewer_only": {
+    "mechanism": "Validator rejects zero uploads although guidance and configuration make recording optional.",
+    "repair_target": "Allow zero-file submission; test required-field behavior separately.",
+    "source_observation": "Internal observation (reference removed for publication)",
+    "synthesis": "Original synthetic content reproduces a mechanism; no customer study content copied."
+  },
+  "target_only_scoring": true,
+  "additional_findings_policy": "Do not automatically count an additional evidence-supported issue as a false alarm. Judge each finding against visible evidence; missing media or runtime access alone does not prevent a bounded source review.",
+  "outcome_claim_limit": "A design repair is not evidence of higher human agreement, correctness, or lower fatigue.",
+  "control_policy": "No planted target defect; preserve the target mechanism. Evidence-supported unrelated improvements are allowed; do not reward unnecessary changes or assertions of complete readiness."
+}

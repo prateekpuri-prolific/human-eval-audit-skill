@@ -1,0 +1,7 @@
+{
+  "labels": {
+    "left": "Atlas-2 (our model)",
+    "right": "Beacon-1 (competitor)"
+  },
+  "randomize_sides": true
+}
