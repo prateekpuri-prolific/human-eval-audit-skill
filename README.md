@@ -1,4 +1,4 @@
-# human-eval-study-audit
+# human-eval-audit-skill
 
 An agent skill for auditing human-rating studies (rubrics, instructions, response scales, assignment and integration config, analysis plans), plus the benchmark used to develop and test it.
 
